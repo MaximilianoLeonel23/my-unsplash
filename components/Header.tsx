@@ -13,7 +13,7 @@ const Header: React.FC = () => {
             className="text-sm text-primary-gray-5 py-4 px-8 rounded-xl border border-primary-gray-5 outline-none"
           />
         </div>
-        <button className="bg-primary-green py-3 px-4 text-white rounded-xl text-base font-bold">
+        <button className="py-4 px-8 rounded-xl text-white font-bold bg-primary-green">
           Add a photo
         </button>
       </div>
