@@ -98,7 +98,7 @@ export const PhotoProvider: React.FC<Props> = ({ children }) => {
         isOpen,
         openForm,
         closeForm,
-        photos, 
+        photos,
         setPhotos,
         filteredPhotos,
         setFilteredPhotos,

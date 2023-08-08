@@ -15,7 +15,7 @@ const Photo: React.FC<Props> = ({ photo }) => {
         <img
           src={photo.url}
           alt={photo.title}
-          className="rounded-2xl mb-4 sm:mb-12"
+          className="rounded-2xl mb-4 sm:mb-12 w-full"
         />
         <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity rounded-2xl "></div>
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity">

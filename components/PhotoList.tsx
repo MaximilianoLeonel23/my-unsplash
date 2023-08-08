@@ -9,7 +9,7 @@ const PhotoList: React.FC = () => {
   return (
     <section className="columns-2 sm:columns-3 gap-4 sm:gap-12">
       {filteredPhotos &&
-        filteredPhotos.map((photo, idx) => {
+        filteredPhotos.reverse().map((photo, idx) => {
           return <Photo photo={photo} key={idx} />;
         })}
     </section>

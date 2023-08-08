@@ -20,7 +20,7 @@ const NewPhotoForm: React.FC = () => {
         url: url,
       });
 
-      await getPhotos();
+      getPhotos();
       closeForm();
     } catch (err) {
       console.log(err);
