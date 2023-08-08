@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
-
+import { PhotoProvider } from "@/context/Photo.context";
 const noto = Noto_Sans({ subsets: ["latin"], weight: ["500", "700"] });
 
 export const metadata: Metadata = {
@@ -18,8 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={noto.className}>
-        <Header />
-        {children}
+        <PhotoProvider>
+          <Header />
+          {children}
+        </PhotoProvider>
       </body>
     </html>
   );

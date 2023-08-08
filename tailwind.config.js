@@ -28,6 +28,9 @@ module.exports = {
           green: "#3db46d",
         },
       },
+      fontSize: {
+        xxs: "10px",
+      },
     },
   },
   plugins: [],
