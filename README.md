@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Please update value in the {}  -->
 
-## Getting Started
+<h1 align="center">My Unsplash App</h1>
 
-First, run the development server:
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<div align="center">
+  <h3>
+    <a href="https://my-unsplash-app-three.vercel.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/MaximilianoLeonel23/my-unsplash">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- TABLE OF CONTENTS -->
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Table of Contents
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
 
-## Learn More
+<!-- OVERVIEW -->
 
-To learn more about Next.js, take a look at the following resources:
+## Overview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![screenshot](https://github.com/MaximilianoLeonel23/my-unsplash/blob/main/assets/images/image1.png)
+![screenshot](https://github.com/MaximilianoLeonel23/my-unsplash/blob/main/assets/images/image2.png)
+![screenshot](https://github.com/MaximilianoLeonel23/my-unsplash/blob/main/assets/images/image3.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+It's an app similar to unsplash famous web app, where you can upload an image an publish it on a public board. Unlike unsplash oficial app, all images are public and there is no sign in functionality, so anyone can interact freely with all content. This is one of the user story of the challenge. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For the backend I use firebase, it's a great option in this kind of projects and this was my first time using it. I`m satisfied with the results.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Built With
+
+
+- [React](https://reactjs.org/)
+- [Nextjs](https://nextjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Firebase](https://firebase.google.com/?hl=es)
+
+## Features
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP) was to build an application to complete the given user stories.
+
+## Contact
+
+- Website [my-website.com](https://maxoleo-dev.vercel.app/)
+- GitHub [MaximilianoLeonel23](https://github.com/MaximilianoLeonel23)
+- Linkedin [MaximilianoLeonelPérez](www.linkedin.com/in/maximiliano-leonel-pérez-8846b826a)
